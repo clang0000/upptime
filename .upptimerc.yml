@@ -5,14 +5,12 @@ repo: upptime # The name of this repository
 sites:
   - name: Google
     url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site 2
-    url: https://thissitedoesnotexistxx.koj.co
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: DCO1 Database Down
+    url: https://dco1.redbyte.dev/
+    __dangerous__body_down: "Error al establecer una conexión con la base de datos"
+  - name: Redbyte Database Down
+    url: https://redbyte.io/
+    __dangerous__body_down: "Error al establecer una conexión con la base de datos"
   - name: IPv6 test
     url: forwardemail.net
     port: 80
